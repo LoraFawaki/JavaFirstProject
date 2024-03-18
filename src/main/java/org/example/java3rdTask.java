@@ -12,10 +12,10 @@ public class java3rdTask {
                 {15, 50, 33, 31},
         };
 
-        for (int i=0; i<num.length; i++){ //for rows
-            for (int j=0; j< num[i].length; j++){ // for columns
-                if (num[i][j] % 2 == 0){
-                    System.out.println(num[i][j]);
+        for (int[] ints : num) { //for rows
+            for (int anInt : ints) { // for columns
+                if (anInt % 2 == 0) {
+                    System.out.println(anInt);
                 }
 
             }
